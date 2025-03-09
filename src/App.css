@@ -1,0 +1,108 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem 0;
+}
+
+/* Japanese UI Design - Subtle gradient backgrounds */
+.card {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #4d7bf3;
+  box-shadow: 0 0 0 2px rgba(77, 123, 243, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #4d7bf3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3a68e0;
+}
+
+.btn-secondary {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Container for centering content */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Language toggle styling */
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.language-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.language-toggle-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.language-toggle-btn.active {
+  font-weight: bold;
+  color: #4d7bf3;
+}
